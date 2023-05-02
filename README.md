@@ -1,12 +1,11 @@
 # Mosaic5G-FlexRan
 
-1. Clone this repository:  
+### 1. Clone this repository:  
 ```
 git clone http://gitlab.eurecom.fr/mosaic5g/mosaic5g.git
 ```
 
-2. Build all the platforms from source or Snap
-
+### 2. Build all the platforms from source or Snap
 From Source: 
 ```
 ./build_m5g -m 
@@ -17,8 +16,7 @@ From Snap:
 ./build_m5g -M 
 ```
 
-Build specific platform from source (lowercase option letter) or Snap (uppercase option letter, when available)
-
+### 3. Build specific platform from source (lowercase option letter) or Snap (uppercase option letter, when available)
 FlexRAN: 
 ```
 ./build_m5g -f  or ./build_m5g -F 
